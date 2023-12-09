@@ -33,6 +33,16 @@ public class Main {
         System.out.println(f);
         System.out.println(g);
 
+        //Task 3
+        byte schoolboysLudmila = 23;
+        byte schoolboysAnna = 27;
+        byte schoolboysEkaterina = 30;
+        short totalPapers = 480;
+        int totalSchoolboys = schoolboysLudmila + schoolboysAnna + schoolboysEkaterina;
+        int papersOneSchoolboy = totalPapers / totalSchoolboys;
+
+        System.out.println("На каждого ученика рассчитано "+ papersOneSchoolboy +" листов бумаги");
+
 
     }
 }
