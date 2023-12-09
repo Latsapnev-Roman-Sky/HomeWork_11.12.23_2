@@ -64,6 +64,17 @@ public class Main {
 
         System.out.println("В школе, где "+ totalClassroom +" классов, нужно "+ totalWhitePaints +" банок белой краски и "+ totalBrownPaints +" банок коричневой краски.");
 
+        //Task 6
+        short bananasWeight = 5 * 80;
+        short milkWeight = (200/100)*105;
+        short iceCreamWeight = 2*100;
+        short eggsWeight = 4*70;
+        int totalWeightGram = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        double totalWeightKilogram = (double) totalWeightGram / 1000;
+
+        System.out.println("Вес спортзавтрака в граммах = "+ totalWeightGram);
+        System.out.println("Вес спортзавтрака в киллограммах = "+ totalWeightKilogram);
+
 
     }
 }
