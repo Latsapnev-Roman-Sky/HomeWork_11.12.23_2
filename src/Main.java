@@ -75,6 +75,16 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах = "+ totalWeightGram);
         System.out.println("Вес спортзавтрака в киллограммах = "+ totalWeightKilogram);
 
+        //Task 7
+        int loseWeightGr = 7 * 1000;
+        int days250WeightLoss = loseWeightGr/250;
+        int days500WeightLoss = loseWeightGr/500;
+        int daysAverage = (days250WeightLoss + days500WeightLoss)/2;
+
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то он сбросит 7 кг за "+ days250WeightLoss +" дней.");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то он сбросит 7 кг за "+ days500WeightLoss +" дней.");
+        System.out.println("В среднем спортсмен сбросит 7 кг за "+ daysAverage +" дней.");
+
 
     }
 }
