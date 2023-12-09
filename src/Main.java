@@ -85,6 +85,21 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то он сбросит 7 кг за "+ days500WeightLoss +" дней.");
         System.out.println("В среднем спортсмен сбросит 7 кг за "+ daysAverage +" дней.");
 
+        //Task 8
+        int oldIncomeMasha = 67760;
+        int oldIncomeDenis = 83690;
+        int oldIncomeKristina = 76230;
+        int newIncomeMasha = (int) (oldIncomeMasha * 1.1);
+        int newIncomeDenis = (int) (oldIncomeDenis * 1.1);
+        int newIncomeKristina = (int) (oldIncomeKristina *1.1);
+        int differenceIncomeMasha = (newIncomeMasha - oldIncomeMasha) * 12;
+        int differenceIncomeDenis = (newIncomeDenis - oldIncomeDenis) * 12;
+        int differenceIncomeKristina = (newIncomeKristina - oldIncomeKristina) * 12;
+
+        System.out.println("Маша теперь получает "+ newIncomeMasha +" рублей. Годовой доход вырос на "+ differenceIncomeMasha + "рублей");
+        System.out.println("Денис теперь получает "+ newIncomeDenis +" рублей. Годовой доход вырос на "+ differenceIncomeDenis + "рублей");
+        System.out.println("Кристина теперь получает "+ newIncomeKristina +" рублей. Годовой доход вырос на "+ differenceIncomeKristina + "рублей");
+
 
     }
 }
