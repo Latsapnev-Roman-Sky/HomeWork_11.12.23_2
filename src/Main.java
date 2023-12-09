@@ -16,6 +16,23 @@ public class Main {
         System.out.println("Значение переменной accessiblePart с типом float равно "+ accessiblePart);
         System.out.println("Значение переменной Pi с типом double равно "+ Pi);
 
+        //Task 2
+        float a = 27.12f;
+        long b = 987678965549L;
+        float c = 2.786f;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+
 
     }
 }
